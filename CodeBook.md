@@ -19,7 +19,7 @@ The input data containts the following data files:
     activity_labels.txt contains metadata on the different types of activities.
     features.txt contains the name of the features in the data sets.
 
-# Transformations
+## Transformations
 
 Following are the transformations that were performed on the input dataset:
 
@@ -43,6 +43,6 @@ Following are the transformations that were performed on the input dataset:
     tidyData is created as a set with average for each activity and subject of extractedData. Entries in tidyData are ordered based on activity and subject.
     Finally, the data in tidyData is written into Tidy.txt.
 
-# Output Data Set
+## Output Data Set
 
 The output data Tidy.txt is a a space-delimited value file. The header line contains the names of the variables. It contains the mean and standard deviation values of the data contained in the input files. The header is restructued in an understandable manner. 
